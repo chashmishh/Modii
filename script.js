@@ -5,10 +5,10 @@ const bgMusic = document.getElementById('bgMusic');
 const gameOverSound = document.getElementById('gameOverSound');
 
 const playerImg = new Image();
-playerImg.src = '/workspaces/Modii/MODI-13-removebg-preview.png'; // Replace with your player image file
+playerImg.src = 'images/Modi.png'; // Replace with your player image file
 
 const objectImg = new Image();
-objectImg.src = '/workspaces/Modii/Statesman-50-removebg-preview.png'; // Replace with your falling object image file
+objectImg.src = 'images/Rahul.png'; // Replace with your falling object image file
 
 const player = {
   x: canvas.width / 2 - 25,
